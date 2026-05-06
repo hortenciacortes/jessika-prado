@@ -11,12 +11,12 @@ export function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-14 px-6 lg:grid-cols-12 lg:gap-16 lg:px-10">
         <div className="lg:col-span-7">
-          <div className="reveal inline-flex items-center gap-3 rounded-full border border-border bg-background/60 px-4 py-1.5 text-[11px] uppercase tracking-[0.24em] text-muted-foreground backdrop-blur">
+          <div className="reveal mx-auto flex w-fit items-center justify-center gap-3 rounded-full border border-border bg-background/60 px-4 py-1.5 text-center text-[11px] uppercase tracking-[0.24em] text-muted-foreground backdrop-blur lg:mx-0">
             <span className="h-1.5 w-1.5 rounded-full bg-sage" />
             Atendimento humanizado · CREFITO
           </div>
 
-          <h1 className="reveal reveal-delay-1 mt-7 font-serif text-[clamp(2.5rem,6vw,4.75rem)] leading-[1.02] text-foreground text-balance">
+          <h1 className="reveal reveal-delay-1 mt-7 font-serif text-[clamp(2.5rem,6vw,4.75rem)] leading-[1.02] text-foreground text-balance text-center lg:text-left">
             Saúde pélvica com
             <br />
             <span className="font-serif-italic text-secondary">atenção e cuidado</span>
@@ -24,13 +24,27 @@ export function Hero() {
             para cada fase da vida
           </h1>
 
-          <p className="reveal reveal-delay-2 mt-7 max-w-xl text-base leading-relaxed text-muted-foreground text-pretty md:text-lg">
+          <div className="reveal reveal-delay-2 relative mx-auto mt-8 max-w-md lg:hidden">
+            <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-gold/40 via-transparent to-sage/40 blur-2xl" />
+            <div className="relative overflow-hidden rounded-[2rem] border border-border/60 shadow-2xl">
+              <Image
+                src="/images/hero-jessika.jpg"
+                alt="Jéssika Prado, fisioterapeuta pélvica"
+                width={1080}
+                height={1600}
+                className="h-full w-full object-cover"
+                priority
+              />
+            </div>
+          </div>
+
+          <p className="reveal reveal-delay-2 mx-auto mt-7 max-w-xl text-base leading-relaxed text-muted-foreground text-pretty text-center md:text-lg lg:mx-0 lg:text-left">
             Sou <strong className="font-medium text-foreground">Jéssika Prado</strong>, fisioterapeuta especializada em
             saúde pélvica feminina e masculina. Um espaço seguro para tratar dores, disfunções e reconectar você com o seu corpo
             com escuta, ciência e acolhimento.
           </p>
 
-          <div className="reveal reveal-delay-3 mt-9 flex flex-wrap items-center gap-4">
+          <div className="reveal reveal-delay-3 mt-9 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
             <a
               href={WHATSAPP}
               target="_blank"
@@ -50,7 +64,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="lg:col-span-5">
+        <div className="hidden lg:col-span-5 lg:block">
           <div className="reveal reveal-delay-2 relative mx-auto max-w-md">
             <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-gold/40 via-transparent to-sage/40 blur-2xl" />
             <div className="relative overflow-hidden rounded-[2rem] border border-border/60 shadow-2xl">

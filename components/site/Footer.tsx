@@ -1,8 +1,8 @@
 export function Footer() {
   return (
     <footer className="border-t border-border/70 px-6 py-12 lg:px-10">
-      <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 md:flex-row md:items-center">
-        <div className="flex items-center gap-3">
+      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 text-center md:flex-row md:items-center md:text-left">
+        <div className="flex items-center justify-center gap-3 md:justify-start">
           <span className="grid h-9 w-9 place-items-center rounded-full bg-foreground text-background font-serif text-sm">
             JP
           </span>
@@ -13,7 +13,7 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <nav className="flex flex-wrap gap-6 text-sm text-muted-foreground">
+        <nav className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
           <a href="#sobre" className="hover:text-foreground">
             Sobre
           </a>
@@ -27,9 +27,10 @@ export function Footer() {
             Contato
           </a>
         </nav>
-        <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Jéssika Prado. Todos os direitos reservados.
-        </p>
+        <div className="text-xs text-muted-foreground md:text-right">
+          <p>© {new Date().getFullYear()} Jéssika Prado. Todos os direitos reservados.</p>
+          <p className="mt-1 text-muted-foreground/90 md:text-right">Desenvolvido por <a href="https://hortencia-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">Hortência Côrtes</a></p>
+        </div>
       </div>
     </footer>
   );

@@ -34,8 +34,7 @@ export function Method() {
               Um percurso <span className="font-serif-italic text-secondary">construído com você.</span>
             </h2>
             <p className="mt-6 max-w-md text-muted-foreground leading-relaxed">
-              Cada encontro é pensado para que você se sinta segura, ouvida e protagonista do seu cuidado do primeiro
-              contato à alta.
+              Cada encontro é pensado para que você se sinta seguro(a), ouvido(a) e protagonista do seu cuidado — do primeiro contato à alta.
             </p>
             <div className="mt-10 overflow-hidden rounded-[2rem] border border-border shadow-xl">
               <Image

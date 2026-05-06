@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const WHATSAPP =
-  "https://wa.me/5500000000000?text=Ol%C3%A1%20J%C3%A9ssika%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.";
+  "https://wa.me/5569992790650?text=Ol%C3%A1%20J%C3%A9ssika%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.";
 
 export function Hero() {
   return (
@@ -17,16 +17,16 @@ export function Hero() {
           </div>
 
           <h1 className="reveal reveal-delay-1 mt-7 font-serif text-[clamp(2.5rem,6vw,4.75rem)] leading-[1.02] text-foreground text-balance">
-            Cuidado íntimo,
+            Saúde pélvica com
             <br />
-            <span className="font-serif-italic text-secondary">para a mulher</span>
+            <span className="font-serif-italic text-secondary">atenção e cuidado</span>
             <br />
-            em todas as fases.
+            para cada fase da vida
           </h1>
 
           <p className="reveal reveal-delay-2 mt-7 max-w-xl text-base leading-relaxed text-muted-foreground text-pretty md:text-lg">
             Sou <strong className="font-medium text-foreground">Jéssika Prado</strong>, fisioterapeuta especializada em
-            saúde pélvica feminina. Um espaço seguro para tratar dores, disfunções e reconectar você com o seu corpo
+            saúde pélvica feminina e masculina. Um espaço seguro para tratar dores, disfunções e reconectar você com o seu corpo
             com escuta, ciência e acolhimento.
           </p>
 
@@ -48,19 +48,6 @@ export function Hero() {
               Conhecer tratamentos
             </a>
           </div>
-
-          <dl className="reveal reveal-delay-3 mt-14 grid max-w-lg grid-cols-3 gap-6 border-t border-border/70 pt-8">
-            {[
-              ["+8", "anos de prática"],
-              ["+1.2k", "mulheres atendidas"],
-              ["98%", "satisfação"],
-            ].map(([k, v]) => (
-              <div key={v}>
-                <dt className="font-serif text-3xl text-foreground">{k}</dt>
-                <dd className="mt-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">{v}</dd>
-              </div>
-            ))}
-          </dl>
         </div>
 
         <div className="lg:col-span-5">
@@ -78,10 +65,7 @@ export function Hero() {
             </div>
             <div className="absolute -bottom-6 -left-6 hidden md:block w-56 rounded-2xl border border-border bg-background/95 p-5 shadow-xl backdrop-blur">
               <p className="font-serif-italic text-base leading-snug text-foreground">
-                &quot;Reencontrei meu corpo com leveza.&quot;
-              </p>
-              <p className="mt-2 text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-                Mariana, 34 — paciente
+                &quot;Sua saúde íntima em boas mãos.&quot;
               </p>
             </div>
           </div>

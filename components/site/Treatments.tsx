@@ -1,8 +1,8 @@
 const items = [
   {
     n: "01",
-    t: "Saúde Pélvica Feminina",
-    d: "Tratamento de incontinência urinária, prolapsos, dor pélvica crônica e disfunções do assoalho pélvico.",
+    t: "Saúde Pélvica Feminina e Masculina",
+    d: "Tratamento de incontinência urinária, dor pélvica, disfunções do assoalho pélvico e reabilitação para homens e mulheres.",
   },
   {
     n: "02",
@@ -12,7 +12,7 @@ const items = [
   {
     n: "03",
     t: "Sexualidade & Bem-Estar",
-    d: "Cuidado terapêutico para dispareunia, vaginismo e disfunções relacionadas à intimidade.",
+    d: "Cuidado terapêutico para disfunções sexuais, dor e questões relacionadas à intimidade.",
   },
   {
     n: "04",
@@ -22,12 +22,12 @@ const items = [
   {
     n: "05",
     t: "Pré e Pós-Operatório",
-    d: "Reabilitação para cirurgias ginecológicas, mamárias e oncológicas com olhar integral.",
+    d: "Reabilitação para cirurgias urológicas, ginecológicas e oncológicas com olhar integral.",
   },
   {
     n: "06",
     t: "Pilates Terapêutico",
-    d: "Sessões individuais com foco em consciência corporal, respiração e força de centro.",
+    d: "Sessões individuais com foco em consciência corporal, respiração e fortalecimento do core.",
   },
 ];
 

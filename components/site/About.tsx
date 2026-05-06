@@ -17,7 +17,7 @@ export function About() {
               <span>
                 desde
                 <br />
-                2017
+                2020
               </span>
             </div>
           </div>
@@ -30,9 +30,9 @@ export function About() {
           </h2>
           <div className="mt-7 space-y-5 text-muted-foreground leading-relaxed">
             <p>
-              Acredito que cuidar da saúde íntima é um ato profundo de autoconhecimento. Há mais de oito anos
-              acompanho mulheres em diferentes fases gestação, pós-parto, menopausa e além combinando técnica avançada
-              e presença genuína em cada sessão.
+              Acredito que cuidar da saúde íntima é um ato profundo de autoconhecimento. Há mais de seis anos
+              acompanho homens e mulheres em diferentes fases da vida, incluindo gestação, pós-parto, menopausa
+              e saúde masculina, sempre combinando técnica avançada e presença genuína em cada sessão.
             </p>
             <p>
               Meu trabalho parte da premissa de que cada corpo é único. Por isso, construo planos terapêuticos
@@ -42,10 +42,10 @@ export function About() {
 
           <ul className="mt-10 grid gap-4 sm:grid-cols-2">
             {[
-              "Especialista em Saúde da Mulher",
-              "Pós-graduação em Uroginecologia",
+              "Especialista em Saúde Pélvica Feminina e Masculina",
+              "Técnicas atualizadas e baseadas em evidências",
               "Atendimento humanizado e individual",
-              "Consultório próprio e acolhedor",
+              "Ambiente seguro, discreto e acolhedor",
             ].map((t) => (
               <li key={t} className="flex items-start gap-3 rounded-xl border border-border/70 bg-card/60 p-4">
                 <span className="mt-1 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-sage/40">

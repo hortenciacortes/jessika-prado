@@ -1,5 +1,5 @@
 const WHATSAPP =
-  "https://wa.me/5500000000000?text=Ol%C3%A1%20J%C3%A9ssika%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.";
+  "https://wa.me/5569992790650?text=Ol%C3%A1%20J%C3%A9ssika%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.";
 
 export function CTA() {
   return (
@@ -40,11 +40,11 @@ export function CTA() {
             <div className="mt-8 grid gap-4 text-sm text-background/70">
               <div>
                 <div className="text-[10px] uppercase tracking-[0.22em] text-gold">Horário</div>
-                <div className="mt-1 text-background">Seg a Sex · 08h às 19h</div>
+                <div className="mt-1 text-background">Seg a Sex · 08h às 18h</div>
               </div>
               <div>
                 <div className="text-[10px] uppercase tracking-[0.22em] text-gold">Atendimento</div>
-                <div className="mt-1 text-background">Consultório próprio · Online disponível</div>
+                <div className="mt-1 text-background">Consultório Humanus Clínica de Especialidades Cacoal</div>
               </div>
             </div>
           </div>

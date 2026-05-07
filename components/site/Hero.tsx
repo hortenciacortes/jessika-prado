@@ -39,9 +39,9 @@ export function Hero() {
           </div>
 
           <p className="reveal reveal-delay-2 mx-auto mt-7 max-w-xl text-base leading-relaxed text-muted-foreground text-pretty text-center md:text-lg lg:mx-0 lg:text-left">
-            Sou <strong className="font-medium text-foreground">Jéssika Prado</strong>, fisioterapeuta especializada em
-            saúde pélvica feminina e masculina. Um espaço seguro para tratar dores, disfunções e reconectar você com o seu corpo
-            com escuta, ciência e acolhimento.
+            Sou <strong className="font-medium text-foreground">Jéssika Prado</strong>,  fisioterapeuta dedicada 
+            à saúde pélvica feminina e masculina. Um espaço seguro para cuidar de dores, disfunções e promover sua conexão com o próprio corpo, 
+            através da escuta, ciência e acolhimento.
           </p>
 
           <div className="reveal reveal-delay-3 mt-9 flex flex-wrap items-center justify-center gap-4 lg:justify-start">

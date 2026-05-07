@@ -7,17 +7,17 @@ const items = [
   {
     n: "02",
     t: "Gestação & Pós-Parto",
-    d: "Preparo para o parto, recuperação pós-parto, diástase abdominal e fortalecimento global.",
+    d: "Preparo para o parto, recuperação pós-parto.",
   },
   {
     n: "03",
-    t: "Sexualidade & Bem-Estar",
-    d: "Cuidado terapêutico para disfunções sexuais, dor e questões relacionadas à intimidade.",
+    t: "Sexualidade & Qualidade de Vida",
+    d: "Cuidado fisioterapêutico voltado para dor na relação, disfunções sexuais, tensão muscular pélvica e bem-estar íntimo, promovendo mais conforto e qualidade de vida.",
   },
   {
     n: "04",
-    t: "Menopausa & Climatério",
-    d: "Acompanhamento das mudanças hormonais, fortalecimento, postura e qualidade de vida.",
+    t: "Menopausa & Saúde Feminina",
+    d: "Acompanhamento das alterações da menopausa e climatério, auxiliando na função pélvica.",
   },
   {
     n: "05",

@@ -42,7 +42,7 @@ export function About() {
 
           <ul className="mt-10 grid gap-4 sm:grid-cols-2">
             {[
-              "Especialista em Saúde Pélvica Feminina e Masculina",
+              "Saúde Pélvica Feminina e Masculina",
               "Técnicas atualizadas e baseadas em evidências",
               "Atendimento humanizado e individual",
               "Ambiente seguro, discreto e acolhedor",

@@ -1,4 +1,9 @@
 import Image from "next/image";
+import { whatsappLink } from "./whatsapp";
+
+const WHATSAPP_ABOUT = whatsappLink(
+  "Olá, Jéssika! Li sobre seu atendimento e queria tirar algumas dúvidas antes de começar."
+);
 
 export function About() {
   return (
@@ -57,6 +62,20 @@ export function About() {
               </li>
             ))}
           </ul>
+
+          <div className="mt-10">
+            <a
+              href={WHATSAPP_ABOUT}
+              target="_blank"
+              rel="noopener"
+              className="inline-flex items-center gap-3 rounded-full bg-foreground px-6 py-3 text-xs uppercase tracking-[0.18em] text-background transition-all hover:bg-foreground/90 hover:shadow-xl"
+            >
+              Tirar duvidas no WhatsApp
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M7 17L17 7M9 7h8v8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </section>

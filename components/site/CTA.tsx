@@ -1,5 +1,8 @@
-const WHATSAPP =
-  "https://wa.me/5569992790650?text=Ol%C3%A1%20J%C3%A9ssika%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.";
+import { whatsappLink } from "./whatsapp";
+
+const WHATSAPP_CONTACT = whatsappLink(
+  "Olá, Jéssika! Quero entender como posso iniciar meu tratamento de fisioterapia pélvica."
+);
 const MAPS = "https://maps.google.com/?q=Av.+Mal.+Rondon,+2682+-+Princesa+Isabel,+Cacoal+-+RO";
 
 export function CTA() {
@@ -18,19 +21,19 @@ export function CTA() {
               <span className="font-serif-italic text-gold">com uma escuta.</span>
             </h2>
             <p className="mt-6 max-w-lg text-background/70 leading-relaxed">
-              Agende sua avaliação inicial pelo WhatsApp. Responderei pessoalmente para entender seu momento e
+              Fale comigo pelo WhatsApp. Responderei pessoalmente para entender seu momento e
               encontrar o melhor caminho para você.
             </p>
           </div>
 
           <div className="lg:col-span-5 lg:justify-self-end">
             <a
-              href={WHATSAPP}
+              href={WHATSAPP_CONTACT}
               target="_blank"
               rel="noopener"
               className="group inline-flex items-center gap-4 rounded-full bg-gold px-8 py-5 text-xs uppercase tracking-[0.22em] text-foreground transition-all hover:bg-background hover:shadow-2xl"
             >
-              Agendar pelo WhatsApp
+              Conversar pelo WhatsApp
               <span className="grid h-9 w-9 place-items-center rounded-full bg-foreground text-gold transition-transform group-hover:rotate-45">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                   <path d="M7 17L17 7M9 7h8v8" strokeLinecap="round" strokeLinejoin="round" />

@@ -1,3 +1,9 @@
+import { whatsappLink } from "./whatsapp";
+
+const WHATSAPP_TESTIMONIALS = whatsappLink(
+  "Olá, Jéssika! Vi os depoimentos e tenho interesse em iniciar meu tratamento."
+);
+
 const t = [
   {
     q: "A escuta da Jéssika transformou minha relação com o meu corpo. Saí de cada sessão mais inteira e segura.",
@@ -46,6 +52,20 @@ export function Testimonials() {
               </figcaption>
             </figure>
           ))}
+        </div>
+
+        <div className="mt-12 flex justify-center">
+          <a
+            href={WHATSAPP_TESTIMONIALS}
+            target="_blank"
+            rel="noopener"
+            className="inline-flex items-center gap-3 rounded-full bg-foreground px-7 py-3 text-xs uppercase tracking-[0.18em] text-background transition-all hover:bg-foreground/90 hover:shadow-xl"
+          >
+            Quero iniciar meu cuidado
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M7 17L17 7M9 7h8v8" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </a>
         </div>
       </div>
     </section>

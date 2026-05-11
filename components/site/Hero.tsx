@@ -1,7 +1,9 @@
 import Image from "next/image";
+import { whatsappLink } from "./whatsapp";
 
-const WHATSAPP =
-  "https://wa.me/5569992790650?text=Ol%C3%A1%20J%C3%A9ssika%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.";
+const WHATSAPP_HERO = whatsappLink(
+  "Olá, Jéssika! Vim pelo site e gostaria de agendar uma avaliação."
+);
 
 export function Hero() {
   return (
@@ -46,7 +48,7 @@ export function Hero() {
 
           <div className="reveal reveal-delay-3 mt-9 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
             <a
-              href={WHATSAPP}
+              href={WHATSAPP_HERO}
               target="_blank"
               rel="noopener"
               className="group inline-flex items-center gap-3 rounded-full bg-foreground px-7 py-4 text-xs uppercase tracking-[0.22em] text-background transition-all hover:shadow-2xl hover:-translate-y-0.5"

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { whatsappLink } from "./whatsapp";
 
 const NAV = [
   { href: "#sobre", label: "Sobre" },
@@ -10,8 +11,9 @@ const NAV = [
   { href: "#contato", label: "Contato" },
 ];
 
-const WHATSAPP =
-  "https://wa.me/5569992790650?text=Ol%C3%A1%20J%C3%A9ssika%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.";
+const WHATSAPP_HEADER = whatsappLink(
+  "Olá, Jéssika! Gostaria de agendar uma avaliação."
+);
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -60,7 +62,7 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href={WHATSAPP}
+            href={WHATSAPP_HEADER}
             target="_blank"
             rel="noopener"
             className="hidden md:inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-xs uppercase tracking-[0.18em] text-background transition-all hover:bg-foreground/85 hover:shadow-lg"
@@ -105,12 +107,12 @@ export function Header() {
               </a>
             ))}
             <a
-              href={WHATSAPP}
+              href={WHATSAPP_HEADER}
               target="_blank"
               rel="noopener"
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-foreground px-6 py-3 text-xs uppercase tracking-[0.2em] text-background"
             >
-              Agendar pelo WhatsApp
+              Agendar
             </a>
           </nav>
         </div>

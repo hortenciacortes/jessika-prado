@@ -1,3 +1,9 @@
+import { whatsappLink } from "./whatsapp";
+
+const WHATSAPP_TREATMENTS = whatsappLink(
+  "Olá, Jéssika! Quero entender qual tratamento de fisioterapia pélvica é mais indicado para meu caso."
+);
+
 const items = [
   {
     n: "01",
@@ -45,6 +51,17 @@ export function Treatments() {
               Atendimentos individuais e exclusivos, em ambiente reservado. Cada plano é construído a partir de uma
               avaliação criteriosa do seu momento.
             </p>
+            <a
+              href={WHATSAPP_TREATMENTS}
+              target="_blank"
+              rel="noopener"
+              className="mt-8 inline-flex items-center gap-3 rounded-full bg-gold px-6 py-3 text-xs uppercase tracking-[0.18em] text-foreground transition-all hover:bg-background hover:shadow-xl"
+            >
+              Falar sobre tratamentos
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M7 17L17 7M9 7h8v8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </a>
           </div>
 
           <div className="lg:col-span-7">

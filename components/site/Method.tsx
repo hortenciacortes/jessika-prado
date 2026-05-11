@@ -1,4 +1,9 @@
 import Image from "next/image";
+import { whatsappLink } from "./whatsapp";
+
+const WHATSAPP_METHOD = whatsappLink(
+  "Olá, Jéssika! Gostaria de entender como funciona a avaliação e as etapas do tratamento."
+);
 
 const steps = [
   {
@@ -36,15 +41,17 @@ export function Method() {
             <p className="mt-6 max-w-md text-muted-foreground leading-relaxed">
               Cada encontro é pensado para que você se sinta seguro(a), ouvido(a) e protagonista do seu cuidado — do primeiro contato à alta.
             </p>
-            <div className="mt-10 overflow-hidden rounded-[2rem] border border-border shadow-xl">
-              <Image
-                src="/images/clinic-space.jpg"
-                alt="Consultório acolhedor de fisioterapia pélvica"
-                width={1400}
-                height={1000}
-                className="h-full w-full object-cover"
-              />
-            </div>
+            <a
+              href={WHATSAPP_METHOD}
+              target="_blank"
+              rel="noopener"
+              className="mt-8 inline-flex items-center gap-3 rounded-full bg-foreground px-6 py-3 text-xs uppercase tracking-[0.18em] text-background transition-all hover:bg-foreground/90 hover:shadow-xl"
+            >
+              Entender como funciona
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M7 17L17 7M9 7h8v8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </a>
           </div>
 
           <ol className="lg:col-span-7 space-y-3">

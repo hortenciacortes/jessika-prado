@@ -1,5 +1,6 @@
 const WHATSAPP =
   "https://wa.me/5569992790650?text=Ol%C3%A1%20J%C3%A9ssika%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.";
+const MAPS = "https://maps.google.com/?q=Av.+Mal.+Rondon,+2682+-+Princesa+Isabel,+Cacoal+-+RO";
 
 export function CTA() {
   return (
@@ -44,7 +45,26 @@ export function CTA() {
               </div>
               <div>
                 <div className="text-[10px] uppercase tracking-[0.22em] text-gold">Atendimento</div>
-                <div className="mt-1 text-background">Consultório Humanus Clínica de Especialidades Cacoal</div>
+                <ul className="mt-1 space-y-1 text-background">
+                  <li className="flex items-center gap-2">
+                    <span className="h-1.5 w-1.5 rounded-full bg-gold" aria-hidden />
+                    <span>Atendimento a domicílio</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="h-1.5 w-1.5 rounded-full bg-gold" aria-hidden />
+                    <span>Consultório Humanus Clínica de Especialidades</span>
+                  </li>
+                  <li className="ml-4">
+                    <a
+                      href={MAPS}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline decoration-gold/70 underline-offset-4 hover:text-gold transition-colors"
+                    >
+                      Av. Mal. Rondon, 2682 - Princesa Isabel, Cacoal - RO
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

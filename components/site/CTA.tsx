@@ -3,7 +3,7 @@ import { whatsappLink } from "./whatsapp";
 const WHATSAPP_CONTACT = whatsappLink(
   "Olá, Jéssika! Quero entender como posso iniciar meu tratamento de fisioterapia pélvica."
 );
-const INSTAGRAM_CONTACT = "https://instagram.com/jessikaprado";
+const INSTAGRAM_CONTACT = "https://instagram.com/fisio.jessikaprado";
 const MAPS = "https://maps.google.com/?q=Av.+Mal.+Rondon,+2682+-+Princesa+Isabel,+Cacoal+-+RO";
 
 export function CTA() {

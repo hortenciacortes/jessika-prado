@@ -16,7 +16,7 @@ export function CTA() {
         <div className="relative grid grid-cols-1 items-center gap-10 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <p className="text-[11px] uppercase tracking-[0.28em] text-gold">Vamos conversar</p>
-            <h2 className="mt-5 font-serif text-4xl leading-[1.05] md:text-6xl text-balance">
+            <h2 className="mt-5 font-serif text-4xl leading-[1.1] md:text-6xl text-balance">
               Seu cuidado começa
               <br />
               <span className="font-serif-italic text-gold">com uma escuta.</span>

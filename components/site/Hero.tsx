@@ -18,7 +18,7 @@ export function Hero() {
             Atendimento humanizado 
           </div>
 
-          <h1 className="reveal reveal-delay-1 mt-7 font-serif text-[clamp(2.5rem,6vw,4.75rem)] leading-[1.02] text-foreground text-balance text-center lg:text-left">
+          <h1 className="reveal reveal-delay-1 mt-7 font-serif text-[clamp(2.5rem,6vw,4.75rem)] leading-[1.102] text-foreground text-balance text-center lg:text-left">
             Saúde pélvica com
             <br />
             <span className="font-serif-italic text-secondary">atenção e cuidado</span>

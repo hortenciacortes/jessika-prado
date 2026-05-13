@@ -44,7 +44,7 @@ export function Treatments() {
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <p className="text-[11px] uppercase tracking-[0.28em] text-gold">Tratamentos</p>
-            <h2 className="mt-5 font-serif text-4xl leading-[1.05] text-background md:text-5xl text-balance">
+            <h2 className="mt-5 font-serif text-4xl leading-[1.1] text-background md:text-5xl text-balance">
               Cada fase merece um <span className="font-serif-italic text-gold">cuidado dedicado.</span>
             </h2>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-background/70">

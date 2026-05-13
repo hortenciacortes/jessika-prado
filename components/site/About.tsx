@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { whatsappLink } from "./whatsapp";
 
+const START_YEAR = 2020;
+const yearsOfExperience = Math.max(new Date().getFullYear() - START_YEAR, 1);
+
 const WHATSAPP_ABOUT = whatsappLink(
   "Olá, Jéssika! Li sobre seu atendimento e queria tirar algumas dúvidas antes de começar."
 );
@@ -22,7 +25,7 @@ export function About() {
               <span>
                 desde
                 <br />
-                2020
+                {START_YEAR}
               </span>
             </div>
           </div>
@@ -35,7 +38,7 @@ export function About() {
           </h2>
           <div className="mt-7 space-y-5 text-muted-foreground leading-relaxed">
             <p>
-              Acredito que cuidar da saúde íntima é um ato profundo de autoconhecimento. Há mais de seis anos
+              Acredito que cuidar da saúde íntima é um ato profundo de autoconhecimento. Há mais de {yearsOfExperience} anos
               acompanho homens e mulheres em diferentes fases da vida, incluindo gestação, pós-parto, menopausa
               e saúde masculina, sempre combinando técnica avançada e presença genuína em cada sessão.
             </p>

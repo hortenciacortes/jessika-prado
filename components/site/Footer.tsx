@@ -9,7 +9,7 @@ export function Footer() {
           <div className="leading-tight">
             <div className="font-serif text-base text-foreground">Jéssika Prado</div>
             <div className="text-[10px] uppercase tracking-[0.22em] text-muted-foreground">
-              Fisioterapia Pélvica · CREFITO
+              Fisioterapia Pélvica
             </div>
           </div>
         </div>

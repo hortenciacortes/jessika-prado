@@ -15,7 +15,7 @@ export function Hero() {
         <div className="lg:col-span-7">
           <div className="reveal mx-auto flex w-fit items-center justify-center gap-3 rounded-full border border-border bg-background/60 px-4 py-1.5 text-center text-[11px] uppercase tracking-[0.24em] text-muted-foreground backdrop-blur lg:mx-0">
             <span className="h-1.5 w-1.5 rounded-full bg-sage" />
-            Atendimento humanizado · CREFITO
+            Atendimento humanizado 
           </div>
 
           <h1 className="reveal reveal-delay-1 mt-7 font-serif text-[clamp(2.5rem,6vw,4.75rem)] leading-[1.02] text-foreground text-balance text-center lg:text-left">
@@ -51,7 +51,7 @@ export function Hero() {
               href={WHATSAPP_HERO}
               target="_blank"
               rel="noopener"
-              className="group inline-flex items-center gap-3 rounded-full bg-foreground px-7 py-4 text-xs uppercase tracking-[0.22em] text-background transition-all hover:shadow-2xl hover:-translate-y-0.5"
+              className="group inline-flex items-center gap-3 rounded-full bg-foreground px-7 py-2 text-xs uppercase tracking-[0.22em] text-background transition-all hover:shadow-2xl hover:-translate-y-0.5"
             >
               Agendar avaliação
               <span className="grid h-7 w-7 place-items-center rounded-full bg-gold text-foreground transition-transform group-hover:rotate-45">

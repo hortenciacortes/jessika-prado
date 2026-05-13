@@ -3,6 +3,7 @@ import { whatsappLink } from "./whatsapp";
 const WHATSAPP_CONTACT = whatsappLink(
   "Olá, Jéssika! Quero entender como posso iniciar meu tratamento de fisioterapia pélvica."
 );
+const INSTAGRAM_CONTACT = "https://instagram.com/jessikaprado";
 const MAPS = "https://maps.google.com/?q=Av.+Mal.+Rondon,+2682+-+Princesa+Isabel,+Cacoal+-+RO";
 
 export function CTA() {
@@ -31,7 +32,7 @@ export function CTA() {
               href={WHATSAPP_CONTACT}
               target="_blank"
               rel="noopener"
-              className="group inline-flex items-center gap-4 rounded-full bg-gold px-8 py-5 text-xs uppercase tracking-[0.22em] text-foreground transition-all hover:bg-background hover:shadow-2xl"
+              className="group inline-flex items-center gap-4 rounded-full bg-gold px-6 py-2 text-xs uppercase tracking-[0.22em] text-foreground transition-all hover:bg-background hover:shadow-2xl"
             >
               Conversar pelo WhatsApp
               <span className="grid h-9 w-9 place-items-center rounded-full bg-foreground text-gold transition-transform group-hover:rotate-45">
@@ -68,6 +69,28 @@ export function CTA() {
                     </a>
                   </li>
                 </ul>
+              </div>
+            </div>
+
+            <div className="mt-7 border-t border-background/15 pt-5">
+              <div className="text-[10px] uppercase tracking-[0.22em] text-gold">Canais de comunicação</div>
+              <div className="mt-3 flex flex-wrap items-center gap-3 text-sm text-background/85">
+                <a
+                  href={INSTAGRAM_CONTACT}
+                  target="_blank"
+                  rel="noopener"
+                  className="inline-flex items-center rounded-full border border-background/25 px-3 py-1.5 text-[11px] uppercase tracking-[0.14em] transition-colors hover:border-gold hover:text-gold"
+                >
+                  Instagram
+                </a>
+                <a
+                  href={WHATSAPP_CONTACT}
+                  target="_blank"
+                  rel="noopener"
+                  className="inline-flex items-center rounded-full border border-background/25 px-3 py-1.5 text-[11px] uppercase tracking-[0.14em] transition-colors hover:border-gold hover:text-gold"
+                >
+                  WhatsApp
+                </a>
               </div>
             </div>
           </div>

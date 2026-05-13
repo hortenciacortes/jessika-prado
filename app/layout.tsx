@@ -14,7 +14,11 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Jéssika Prado",
-  description: "Fisioterapia pélvica feminina com cuidado humanizado.",
+  description: "Fisioterapia pélvica para homens e mulheres. Cuidado dedicado para cada fase da vida.",
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

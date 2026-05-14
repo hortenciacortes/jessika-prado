@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { whatsappLink } from "./whatsapp";
 
@@ -36,13 +37,19 @@ export function Header() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-10">
         <a href="#top" className="group flex items-center gap-2.5">
-          <span className="grid h-9 w-9 place-items-center rounded-full bg-foreground text-background font-serif text-sm">
-            JP
+          <span className="relative block h-20 w-20 overflow-hidden rounded-full border border-border/70 bg-background">
+            <Image
+              src="/images/logo.png"
+              alt="Logo Jéssika Prado"
+              fill
+              sizes="80px"
+              className="object-cover"
+            />
           </span>
           <span className="hidden sm:flex flex-col leading-tight">
             <span className="font-serif text-base text-foreground">Jéssika Prado</span>
             <span className="text-[10px] uppercase tracking-[0.22em] text-muted-foreground">
-              Fisioterapia Pélvica
+              Fisio Pélvica
             </span>
           </span>
         </a>

@@ -1,10 +1,18 @@
+import Image from "next/image";
+
 export function Footer() {
   return (
     <footer className="border-t border-border/70 px-6 py-12 lg:px-10">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 text-center md:flex-row md:items-center md:text-left">
         <div className="flex items-center justify-center gap-3 md:justify-start">
-          <span className="grid h-9 w-9 place-items-center rounded-full bg-foreground text-background font-serif text-sm">
-            JP
+          <span className="relative block h-14 w-14 overflow-hidden rounded-full border border-border/70 bg-background">
+            <Image
+              src="/images/logo.png"
+              alt="Logo Jéssika Prado"
+              fill
+              sizes="56px"
+              className="object-cover"
+            />
           </span>
           <div className="leading-tight">
             <div className="font-serif text-base text-foreground">Jéssika Prado</div>
